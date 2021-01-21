@@ -1,9 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Mpa2 from '@pages/mpa2';
 
 ReactDOM.render(
-  <div>
-    <h3>这就是一个简单的Demo</h3>
-  </div>,
+  <Mpa2 />,
   document.getElementById("root")
 );

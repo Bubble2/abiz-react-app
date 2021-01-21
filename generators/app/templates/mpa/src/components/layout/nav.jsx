@@ -1,20 +1,18 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
-
 
 export default class Nav extends React.Component{
     constructor(props){
         super(props);
         this.navList = [
             {
-                key: 'demo1',
-                name: 'demo1',
-                link: '/demo1'
+                key: 'mpa1',
+                name: 'mpa1',
+                link: '/mpa1'
             },
             {
-                key: 'demo2',
-                name: 'demo2',
-                link: '/demo2'
+                key: 'mpa2',
+                name: 'mpa2',
+                link: '/mpa2'
             }
         ]
     }
@@ -27,7 +25,7 @@ export default class Nav extends React.Component{
                         return this.props.actived === item.key?(
                             <span key={item.key}>{item.name}</span>
                         ):(
-                            <Link to={item.link} key={item.key}>{item.name}</Link>
+                            <a href={item.link} key={item.key}>{item.name}</a>
                         )
                     })
                 }

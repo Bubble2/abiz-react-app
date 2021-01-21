@@ -1,15 +1,14 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import reactLogo from '@images/react-logo.jpg';
 
 export default class Index extends React.Component{
     render(){
         return(
             <div>
-                <h1>Abiz React Scaffold SPA</h1>
+                <h1>Abiz React Scaffold Mpa1</h1>
                 <img src={reactLogo} alt=""/>
-                <Link to="/demo1">demo1</Link>
-                <Link to="/demo2">demo2</Link>
+                <a href="/mpa1.html">mpa1</a>
+                <a href="/mpa2.html">mpa2</a>
             </div>
         )
     }
