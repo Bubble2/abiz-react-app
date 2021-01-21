@@ -7,7 +7,7 @@ export default class Index extends React.Component{
             <div>
                 <h1>Abiz React Scaffold Mpa2</h1>
                 <img src={reactLogo} alt=""/>
-                <a href="/mpa.html">mpa</a>
+                <a href="/mpa1.html">mpa1</a>
                 <a href="/mpa2.html">mpa2</a>
             </div>
         )

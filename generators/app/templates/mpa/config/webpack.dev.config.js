@@ -23,6 +23,8 @@ module.exports = merge(webpackBaseConfig, {
         disableHostCheck: true,
         host: '0.0.0.0',
         hot: true,
+        open: true,
+        openPage: 'http://localhost:'+port+'/mpa1.html',
         historyApiFallback: { //单页应用刷新页面重定向到对应的单页目录下，以便支持多个单页和多页共存
 			rewrites: Object.keys(entryObj).filter(chunkName=>{
                 return chunkName.indexOf('/') !== -1;
