@@ -1,0 +1,21 @@
+{
+  "name": "generator-abiz-react",
+  "version": "1.0.0",
+  "description": "abiz-react scaffold",
+  "files": [
+    "generators"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "abiz-react"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^1.1.1"
+  },
+  "author": "guozhaodong",
+  "license": "ISC"
+}
