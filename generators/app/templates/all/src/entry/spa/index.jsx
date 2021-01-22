@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import RootRouter from '@router';
+import RootRouter from '@router/spa';
 import {applyMiddleware, createStore} from "redux";
 import thunk from "redux-thunk";
-import rootReducer from "../store";
+import rootReducer from "../../store";
 import {Provider} from "react-redux";
 import simpleAsync from "@utils/reduxSimpleAsync";
 

@@ -17,6 +17,10 @@ module.exports = [
         name: 'mpa（多页应用）',
         value: 'mpa',
         short: 'mpa（多页应用）'
+      }, {
+        name: 'all（单页多页混用）',
+        value: 'all',
+        short: 'all（单页多页混用）'
       }]
     }
 ]
