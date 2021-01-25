@@ -1,5 +1,5 @@
-import {fromJS} from "../../../../all/src/pages/demo1/node_modules/immutable";
-import axios from '../../../../all/src/pages/demo1/node_modules/@utils/axios';
+import {fromJS} from "immutable";
+import axios from '@utils/axios';
 import * as constant from "./actionsTypes";
 
 /**

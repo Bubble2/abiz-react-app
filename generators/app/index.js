@@ -1,5 +1,6 @@
 const Generator = require('yeoman-generator');
 const prompts = require('./prompts');
+const prompts2 = require('./prompts2');
 
 // 单页、多页
 // 是否支持redux
@@ -21,6 +22,13 @@ module.exports = class extends Generator{
         this.config.set('projectName', this.projectName);
 
         this.tmpDir = './' + answers.projectType;
+
+        if(answers.projectType=== 'spa'){
+            const answers2 =  await this.prompt(prompts2);
+            if(!answers2.redux){
+                this.tmpDir = './spa-without-redux';
+            }
+        }
     }
 
     writing(){

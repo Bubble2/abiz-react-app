@@ -1,4 +1,4 @@
-import {fromJS} from "../../../all/src/pages/demo1/node_modules/immutable";
+import {fromJS} from "immutable";
 
 //actionType后缀
 const REQUEST_BEGIN_SUFFIX = 'REQUEST';

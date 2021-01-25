@@ -1,9 +1,11 @@
 import React from 'react';
-import reactLogo from '@images/react-logo.jpg';
+import Nav from '@components/layout/nav'
+import classNames from "classnames/bind";
+import styles from "../styles/index.scss";
+const cx = classNames.bind(styles);
 import {fetchDemo1Pre} from '../fetch';
 
-export default class Index extends React.Component{
-
+export default class Demo1 extends React.Component{
     constructor(props){
         super(props);
         this.state={
@@ -22,11 +24,8 @@ export default class Index extends React.Component{
 
     render(){
         return(
-            <div>
-                <h1>Abiz React Scaffold Mpa1</h1>
-                <img src={reactLogo} alt=""/>
-                <a href="/mpa1.html">mpa1</a>
-                <a href="/mpa2.html">mpa2</a>
+            <div className={cx("wrap")}>
+                <Nav actived="demo1"/>
                 <ul>
                     {
                         this.state.preData.map((item)=>{
@@ -41,3 +40,4 @@ export default class Index extends React.Component{
         )
     }
 }
+

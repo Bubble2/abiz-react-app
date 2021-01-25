@@ -1,4 +1,4 @@
-import {fromJS} from "../../../../all/src/pages/demo1/node_modules/immutable";
+import {fromJS} from "immutable";
 import * as constant from "./actionsTypes";
 import {combineReducers} from "redux-immutable";
 
