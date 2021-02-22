@@ -154,7 +154,7 @@ module.exports = merge(webpackBaseConfig, {
 			new OptimizeCSSAssetsPlugin({}),
 			new webpack.DefinePlugin({
 				//所有ajax请求的基础url
-				'BASE_URL': JSON.stringify(`${distApiPath}api`)
+				'BASE_URL': JSON.stringify(`${distApiPath}`)
 			})
 		],
 	}

@@ -1,3 +1,8 @@
+## 0.0.3 (February 22, 2021)
+
+* 修复生产环境下热加载babel插件报错`bug`
+* 修复生产环境下请求基础路径错误`bug`
+
 ## 0.0.2 (January 22, 2021)
 
 * add all(include spa and mpa) option

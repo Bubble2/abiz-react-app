@@ -51,11 +51,6 @@ module.exports = class extends Generator{
             this.templatePath(this.tmpDir + '/_gitignore'),
             this.destinationPath('.gitignore')
         );
-
-        this.fs.copy(
-            this.templatePath(this.tmpDir + '/_babelrc'),
-            this.destinationPath('.babelrc')
-        );
       
         this.removeFiles();
 
@@ -64,7 +59,6 @@ module.exports = class extends Generator{
     removeFiles() {
         // this.fs.delete(this.destinationRoot() + '/_package.json');
         this.fs.delete(this.destinationRoot() + '/_gitignore');
-        this.fs.delete(this.destinationRoot() + '/_babelrc');
       }
 
     install(){
