@@ -48,7 +48,7 @@ module.exports = merge(webpackBaseConfig, {
 				]
 			},
 			{
-				test: /\.less$/,
+				test: /\.css$/,
 				include: /node_modules/,
 				use: [
                     {
@@ -59,12 +59,6 @@ module.exports = merge(webpackBaseConfig, {
                     },
 					{
 						loader: 'css-loader'
-					},
-					{
-						loader: 'less-loader', // compiles Less to CSS,
-						options: {
-							javascriptEnabled: true
-						}
 					}
 				]
 			},

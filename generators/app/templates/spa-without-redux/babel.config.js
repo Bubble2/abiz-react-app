@@ -24,7 +24,7 @@ module.exports = function(api){
 				"import",
 				{
 					"libraryName": "@abiz/rc-aeps",
-					"style": 'css'
+					"style": true
 				},
 				"@abiz/rc-aeps"
 			]
