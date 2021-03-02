@@ -34,7 +34,7 @@ module.exports = {
 			"@images": pathResolve('src/images'),
 			"@utils": pathResolve('src/utils'),
 			"@router": pathResolve('src/router'),
-			"react": pathResolve('../node_modules/react')
+			"react": pathResolve('./node_modules/react')
 		}
 	}
 };

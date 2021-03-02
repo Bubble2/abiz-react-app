@@ -22,7 +22,7 @@ module.exports = {
 	resolve: {
 		modules: [
 			pathResolve('src'),
-			pathResolve('./node_modules'),
+			pathResolve('../node_modules'),
 			"node_modules"
 		],
 		extensions: ['.js', '.jsx', '.scss', '.json'],
