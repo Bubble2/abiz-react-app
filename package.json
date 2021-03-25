@@ -1,6 +1,6 @@
 {
   "name": "generator-abiz-react-app",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "abiz-react-app scaffold",
   "files": [
     "generators"
@@ -13,7 +13,7 @@
     "yeoman-generator": "^1.1.1"
   },
   "repository": {
-    "url": "http://git.vemic.com/abiz-fe/abiz-react"
+    "url": "https://github.com/Bubble2/abiz-react-app"
   },
   "author": "guozhaodong",
   "license": "ISC"
